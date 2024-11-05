@@ -10,22 +10,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pimpelsang/kafkajs-very-snappy.git"
+    "url": "git://github.com/watchingthat/kafkajs-snappy-native.git"
   },
   "keywords": [
     "kafkajs"
   ],
   "author": "eero.koplimets",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/pimpelsang/kafkajs-very-snappy/issues"
-  },
-  "homepage": "https://github.com/pimpelsang/kafkajs-very-snappy#readme",
   "dependencies": {
     "snappy": "^7.1.1"
   },
   "devDependencies": {
-    "@release-it/conventional-changelog": "9.0.2",
+    "@release-it/bumper": "6.0.1",
+    "@release-it/conventional-changelog": "8.0.1",
     "@types/node": "22.8.7",
     "@typescript-eslint/eslint-plugin": "7.2.0",
     "@typescript-eslint/parser": "7.2.0",
@@ -34,14 +31,14 @@
     "eslint-plugin-import": "2.31.0",
     "eslint-plugin-prettier": "5.2.1",
     "prettier": "^3.3.3",
-    "release-it": "17.10.0",
+    "release-it": "17.6.0",
     "typescript": "5.6.3"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
   "engines": {
-    "node": ">=18.8.0"
+    "node": ">=22.0.0"
   },
   "sideEffects": false
 }

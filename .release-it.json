@@ -1,6 +1,9 @@
 {
+  "$schema": "https://unpkg.com/release-it/schema/release-it.json",
   "git": {
-    "requireCleanWorkingDir": true
+    "requireCleanWorkingDir": false,
+    "commitMessage": "Release ${version}",
+    "tagName": "${version}"
   },
   "plugins": {
     "@release-it/conventional-changelog": {
