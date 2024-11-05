@@ -1,5 +1,7 @@
 
 
+## [1.0.2](https://github.com/watchingthat/kafkajs-snappy-native/compare/1.0.1...1.0.2) (2024-11-05)
+
 ## 1.0.1 (2024-11-05)
 
 
